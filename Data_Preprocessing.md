@@ -16,7 +16,7 @@
 - Step_5 :
    - Handling Imbalance Dataset (this is applicable for Classification Problem)
  
-  ### Step_1: Handling missing value
+### Step_1: Handling missing value
   - Rule_1 :
     - if 25% or more data missed, ignore/drop that variable
   - Ruel_2:
