@@ -52,14 +52,14 @@
   - Cascading
 
 #### Clustering / Segmentation / Grouping
-- Cluster or Group the data into similar class and target the most efficient cluster of data is simply a clustering technique
+- Cluster or Group the data into similar classes and targeting the most efficient cluster of data is simply a clustering technique
 - Algorithms:
   - K- means Cluster
   - C - means Cluster
   - Hierarchical Cluster
-  - DBSCAN (Density Based Special Cluster of Application Noise)
-#### Association Rule Mining / Market Basket Ananlysis
-- Coupons offer in shop or production suggestions while shopping in online are the example of Association Rule Mining
+  - DBSCAN (Density-Based Special Cluster of Application Noise)
+#### Association Rule Mining / Market Basket Analysis
+- Coupons offered in shop or production suggestions while shopping in online are the example of Association Rule Mining
 - Algorithm:
   - Apriore
 
