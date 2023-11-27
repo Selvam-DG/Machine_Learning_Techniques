@@ -21,10 +21,16 @@
     - if 25% or more data missed, ignore/drop that variable
   - Ruel_2:
     - if less than 25% data is missed,
-    - Step_1 : Check the data type of that variable (number or character(object))
-    - Step_2 : if the variable is Character / object => do MODE approach
-    - Step_3 : if the vauiable is number
-       - approach is to first check outliers
+    - Step_1: Check the data type of that variable (number or character(object))
+    - Step_2: if the variable is Character / object => do MODE approach
+    - Step_3: if the vauiable is number
+       - The approach is to first check outliers
        - if outliers found, use MEDIAN
        - if no outliers , then use MEAN
-      
+
+
+#### Important Module/Library to use in Data_Preprocessing
+- Numpy
+- Pandas
+- Matplotlib.pyplot
+- Seaborn
