@@ -66,7 +66,7 @@
 #### Time Series Forecasting
 - Here, problems are done in 2 ways
 1. Machine Learning
-  - ARIMA (Auto Regressive Integrated Moving Average
+  - ARIMA (Auto Regressive Integrated Moving Average, AR- Auto-Regressive, MV- Moving Average, SARIMA
 2. Deep Learning
   - LSTM ( Long Short Term Memory)
 - when data containing time and date and are independent variables affecting the output variable, then the Time Forecasting Algorithm is used
