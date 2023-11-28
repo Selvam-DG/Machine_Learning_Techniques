@@ -5,16 +5,16 @@
 
 ### The following Techniques are there for pre-processing the data to handle missiging value. garbage value 
 - Step1:
-   - Handling missing value
-- Step 2:
-  - Handling Encoding part
+   - Handling missing value        (applicable for both categorical and numerical data type)
+- Step_2:
+  - Handling Outlier       (applicable for numerical data type)
+-  Step 3:
+  - Handling Encoding part       (applicable for categorical data type)
     - Step_2.1: Label Encoder
     - Step_2.2 : One Hot Encoder
     - Step2.3 : Dummy Variable
-- Step_3:
-  - Handling Outlier
 - Step_4:
-  - Feature Scaling
+  - Feature Scaling           (applicable for numerical data type)
     - Step_4.1 : Normalisation
     - Step_4.2 : Standardisation
 - Step_5 :
@@ -34,7 +34,8 @@
 
 
 #### Outlier:
-- Quartile:
+- Calculation of Quartile:
+   - Suppose a dataset contain n number of data then 
    - quartile_1 = (n+1)/4     => 25th percentile
    - quartile_2 = (n+1)/2     => 50th percentile
    - quartile_3 = 3(n+1)/4     => 75th percentile
@@ -42,6 +43,29 @@
 - InterQuartileRange (IQR) = quartile_3 - quartile_1
 - Positive Outlier = quartile_3 + 1.5 * IQR        => 1.5 is 15% threshold value. It depends on the client to change to 10 or 20 percent
 - Negative Outlier = quartile_1 - 1.5 * IQR
+
+### Step_2: Handling Outliers:
+- If outliers found in Dataset
+- Transformation approach is:
+   - General Approach (quartile_3 + 1.5 * IQR or quartile_1 - 1.5 * IQR)
+   - Square root
+        - By transforming the data into square root values, the removal of data is omitted
+   - Cube root
+        - By transforming the data into cube root values, the removal of data is omitted (more data is saved from removal process)
+   - Log Transformation
+        - By transforming the data into log values, the removal of data is almost omitted (because all  data values transformed to minimum scale values) 
+ 
+- Regularisation Approach
+  - Lasso/Ridge / ElasticNet
+  - Hetroscadicity
+ 
+### Step_3: Handling Encoding part 
+- Label Encoder:
+     - Categories variables are converted into numerical values by assigning a sample number to that variable (similar to sorting an alphabetical list)
+- One Hot Encoder:
+     - converting label encode to bit of 0 and 1 values
+
+
 #### Important Module/Library to use in Data_Preprocessing
 - Numpy
 - Pandas
