@@ -1,4 +1,8 @@
 ## How to Pre_process the data???
+#### Datas are two types
+1. Structured Data set => Machine Learning
+2. Unstructured Data set
+
 ### The following Techniques are there for pre-processing the data to handle missiging value. garbage value 
 - Step1:
    - Handling missing value
@@ -29,6 +33,15 @@
        - if no outliers , then use MEAN
 
 
+#### Outlier:
+- Quartile:
+   - quartile_1 = (n+1)/4     => 25th percentile
+   - quartile_2 = (n+1)/2     => 50th percentile
+   - quartile_3 = 3(n+1)/4     => 75th percentile
+   - quartile_4 = (n+1)        => 100th percentile
+- InterQuartileRange (IQR) = quartile_3 - quartile_1
+- Positive Outlier = quartile_3 + 1.5 * IQR        => 1.5 is 15% threshold value. It depends on the client to change to 10 or 20 percent
+- Negative Outlier = quartile_1 - 1.5 * IQR
 #### Important Module/Library to use in Data_Preprocessing
 - Numpy
 - Pandas
