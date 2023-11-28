@@ -64,7 +64,19 @@
      - Categories variables are converted into numerical values by assigning a sample number to that variable (similar to sorting an alphabetical list)
 - One Hot Encoder:
      - converting label encode to bit of 0 and 1 values
-
+- Dummy Variable:
+     - To avoid multicollinearity (That is the One Encoder value represents twice, so to remove the one value. suppose 1 is not present means the value is zero)
+ 
+### Step_4 : Feature Scaling 
+- By doing the feature scaling, the values are transferred to same scale values
+- Standardisation:
+  - When there is an outlier, do the standardization approach
+  - Its range is -3 to +3
+  - Formula is summation of (Actual value- mean value) / (standard deviation)
+- Normalisation:
+     - If no outliers are found in data, go with the Normalisation method
+     - The value ranges from 0 to +1 after Normalisation appraoch
+     - Formula is summation of (Actual value- minimum value) / (range)
 
 #### Important Module/Library to use in Data_Preprocessing
 - Numpy
