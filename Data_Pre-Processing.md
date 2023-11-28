@@ -1,7 +1,7 @@
 ## How to Pre_process the data???
 #### Datas are two types
-1. Structured Data set => Machine Learning
-2. Unstructured Data set
+1. Structured Data set (tables,csv,excel) => Machine Learning 
+2. Unstructured Data set  (Audio,Vedio,image )=> Deep learning
 
 ### The following Techniques are there for pre-processing the data to handle missiging value. garbage value 
 - Step1:
