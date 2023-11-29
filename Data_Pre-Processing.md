@@ -95,6 +95,7 @@
 
 - Approach 3:
      - Artificial/ synthetic Approach (SMOTE)
+     - using an extrapolation concept
  
        
 #### Important Module/Library to use in Data_Preprocessing
