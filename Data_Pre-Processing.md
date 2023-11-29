@@ -78,6 +78,25 @@
      - The value ranges from 0 to +1 after Normalisation appraoch
      - Formula is summation of (Actual value- minimum value) / (range)
 
+### Step_5 : Imbalance dataset
+- This is applicable for classification problem because the dataset is level data (ie, dependent variable is yes or no type)
+- Assume yes variable is majority dataset and no varibale is minority dataset, then
+- If the majority dataset is greater than or equal to twice the minority dataset, then it is an imbalance dataset
+- Suppose n1 and n2 are two datasets with majority dataset of n1 and minority dataset of n2 (n1 >= n2)
+- How to make the dataset to balance??
+- Approach 1:
+   - Undersampling method (Target is Majority dataset)
+   - so reduced the majority dataset to minimum dataset.
+   - but the problem with undersampling is that reducing the majority class to minimum dataset by removing the data. So it is not best method in digital world. Deleting/ reducing data is avoidable
+   - So another approach is there to handle this imbalance dataset
+- Approach 2:
+     - Oversampling method (Target is Minority dataset)
+     - It means the minority dataset is increased to majority dataset. that means n2 number increasing to n1 numbers
+
+- Approach 3:
+     - Artificial/ synthetic Approach (SMOTE)
+ 
+       
 #### Important Module/Library to use in Data_Preprocessing
 - Numpy
 - Pandas
