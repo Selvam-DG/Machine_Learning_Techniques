@@ -1,3 +1,10 @@
+## Discrete Distributions:
+ - The sum of all individual probabilities must be equal to one
+ - Bernoulis distribution, Binomial distribution, uniform distribution
+## Continuous Distribution:
+ - The area under the probability curve must be equal to one
+ - Normal distribution
+
 ### Binomial distribution:
 - Random variables can have only two outcomes  - success/failure or Yes/No
 - n random varaibles
