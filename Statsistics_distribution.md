@@ -10,3 +10,6 @@
    - each trail has either success or failure outcome
    - fixed number of trails
    - probability of success should be constant
+- **Bernoulli distribution**”: One trial or experiment with outcome “success” or “failure”
+- ”**Binomial distribution**”: n independent trials, each with outcome “success” or “failure”
+  
