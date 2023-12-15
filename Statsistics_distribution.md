@@ -27,4 +27,9 @@
 Parametric Test:
 - T-Test
 - z- test
+
+### Hypothesis Testing:
+- We have to do statistically significant tests in such a way that independent variables do or don't influence the Dependent variables.
+- Null Hypothesis - Independent variables do not influence the dependent variable
+- Alternative Hypothesis - Independent variables influence the dependent variable
 - 
