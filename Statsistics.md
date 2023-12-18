@@ -1,5 +1,10 @@
 # STATISTICS
-
+### Descriptive Statistics
+### Inferential Statistics
+## Probability
+## Conditional Probability
+## Total Probability Theorem
+## Bayes Theorem
 ##Statistics Distributions
 ## Discrete Distributions:
  - The sum of all individual probabilities must be equal to one
@@ -28,6 +33,9 @@
 ### Hypergeometric Distribution
 
 ### Uniform Distribution
+### Normal Distribution (Gaussian Distribution)
+#### Standard Normal Distribution
+- mean is zero and variance is 1
 
 ### Exponential Distribution
 
@@ -36,15 +44,26 @@
 
 ## Parametric Test:
 - z- test
+  - when the sample size is more than 30
 - t-Test
-- 
+  - When the sample is less than 30, go with t-test
+ - F-Test
+ - ANOVA
+
+### Non-parametric Test
+- Chi-Square test
+- Rank Pearson
+- Sign Test
+- One Sample Ranking
+- Spearman's correlation coefficient
 
 ### Hypothesis Testing:
 - We have to do statistically significant tests in such a way that independent variables do or don't influence the Dependent variables.
 - Null Hypothesis - Independent variables do not influence the dependent variable (calculated test value is less than p-value(0.05))
-- Alternative Hypothesis - Independent variables influence the dependent variable
+- Alternative Hypothesis - Independent variables influence the dependent variable (The variables are statistically significant)
+Error-I = Actual Null Hypothesis is rejected but Null hypothesis is accepted (i.e, Alternate hypothesis has to  be accepted but mistakenly Null Hypothesis is accepted)
+Error-II = Actual Alternate Hypothesis has to be accepted but Mistakenly Alternate Hypothesis is rejected
 
-- 
 
 
 # ANOVA (One-way and Two-way ANOVA)
@@ -55,6 +74,9 @@
 - SST = Sum of Squares Total =  SSB + SSW
 - DOF(T/W/B) = Degree of Freedom (Total / Within/ Between)
 - DoF(T) = DoF(B) + DoF(W)
+- DoF(T) = (no. of rows * no. of Columns -1)
+- DoF(B) = (no. of columns -1)
+- 
 - R-code for calculating ANOVA
  - aov(dependent varaible ~ independent variable, data)
    
@@ -62,3 +84,28 @@
 - support
 - Confidence
 - Lift
+
+### Karl Pearson's Coefficient of Correlation
+- Finding the relation between two variables i.e., how much the variables are related to each other.
+- the correlation coefficient (r) = covariance(X,Y) / (std.deviation(X) *std.deviation(Y) )
+- -1 < r < 1
+- if r = 1; the variables are perfectly  positively correlated
+- if r = -1; the variables are perfectly negatively correlated
+- if r > 0.75, the variables are highly positively correlated
+- 0.3 < r < 0.75, the variables are moderate positive correlated
+- 0 < r < 0.3, the variables are weakly correlated
+
+
+### Spearsman's Rank Correlation Coefficient
+- First  rank the variables individually
+- Find the difference between the rank of the variables
+-  square the difference
+-  Formula: R = 1 - (sum of all square of differences / (n *(n^2 - 1)))
+-  -1 < R < 1
+-  
+
+### Chi-Square Test
+- Chi-square is non- parametric test i.e when we are finding the relation between two categorical variables
+- Formula = summation of all ((Actual Value - Expected value) ^2 / (Expected Value))
+- Degree of Freedom = (column -1) * (Row -1)
+- If the calculated value is less than p-value(0.05), reject Null Hypothesis i.e, accept Alternate Hypothesis
