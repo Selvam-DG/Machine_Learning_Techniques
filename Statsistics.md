@@ -1,3 +1,4 @@
+# Statistics Distributions
 ## Discrete Distributions:
  - The sum of all individual probabilities must be equal to one
  - Bernoulis distribution, Binomial distribution, uniform distribution
@@ -22,14 +23,38 @@
 
 ### Poisson Distribution:
 - we can prefer Poisson distribution, whenever a number of events have to be calculated in a fixed interval of time with a known mean or average rate and independently of the time
+### Hypergeometric Distribution
 
+### Uniform Distribution
 
-Parametric Test:
-- T-Test
+### Exponential Distribution
+
+### Chi-square Distribution
+### t-Distribution
+
+## Parametric Test:
 - z- test
+- t-Test
+- 
 
 ### Hypothesis Testing:
 - We have to do statistically significant tests in such a way that independent variables do or don't influence the Dependent variables.
 - Null Hypothesis - Independent variables do not influence the dependent variable
 - Alternative Hypothesis - Independent variables influence the dependent variable
+
 - 
+
+
+# ANOVA (One-way and Two-way ANOVA)
+- F- stats is used to find the relation between two categorical variables
+- F-stat = (SSB / DoFB) / (SSW/DoFW)
+- SSB = Sum of Squares Between
+- SSW = Sum of Squares Within
+- SST = Sum of Squares Total =  SSB + SSW
+- DOF(T/W/B) = Degree of Freedom (Total / Within/ Between)
+- DoF(T) = DoF(B) + DoF(W)
+- 
+### Association Rule Mining
+- support
+- Confidence
+- Lift
