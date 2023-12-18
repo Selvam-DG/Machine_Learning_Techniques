@@ -1,4 +1,6 @@
-# Statistics Distributions
+# STATISTICS
+
+##Statistics Distributions
 ## Discrete Distributions:
  - The sum of all individual probabilities must be equal to one
  - Bernoulis distribution, Binomial distribution, uniform distribution
@@ -39,7 +41,7 @@
 
 ### Hypothesis Testing:
 - We have to do statistically significant tests in such a way that independent variables do or don't influence the Dependent variables.
-- Null Hypothesis - Independent variables do not influence the dependent variable
+- Null Hypothesis - Independent variables do not influence the dependent variable (calculated test value is less than p-value(0.05))
 - Alternative Hypothesis - Independent variables influence the dependent variable
 
 - 
@@ -53,7 +55,9 @@
 - SST = Sum of Squares Total =  SSB + SSW
 - DOF(T/W/B) = Degree of Freedom (Total / Within/ Between)
 - DoF(T) = DoF(B) + DoF(W)
-- 
+- R-code for calculating ANOVA
+ - aov(dependent varaible ~ independent variable, data)
+   
 ### Association Rule Mining
 - support
 - Confidence
