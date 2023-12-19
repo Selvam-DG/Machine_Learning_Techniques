@@ -45,8 +45,11 @@
 ## Parametric Test:
 - z- test
   - when the sample size is more than 30
+  - the population is normally distributed with known variance
+  - Testing the value of population mean with the population standard deviation
 - t-Test
-  - When the sample is less than 30, go with t-test
+  - When the sample is less than 30, go with a t-test
+  - 
  - F-Test
  - ANOVA
 
