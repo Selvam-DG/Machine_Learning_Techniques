@@ -19,3 +19,9 @@
 - The best-fit line in Linear Regression to get a minimum error (i.e, a minimum value of summation of squares of(actual value - expected value)
 - The algorithm used in  the Linear Regression Model is **Ordinary Least Square (OLS)/Linear Least Square(LLS)/Square Loss Function**
 - OLS = argmin(summation of all (Actual value - Expected value)^2)
+### Regularization Approach
+- Balancing the dataset to the same scale is regularisation
+- Regularisation is used to remove overfitting or underfitting problem
+- L2-Regularisation = Lasso (High value)
+- L1-Regularisation = Ridge (Low value)
+- L1 + L2 - regularisation = ElasticNet
