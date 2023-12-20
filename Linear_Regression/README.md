@@ -25,3 +25,11 @@
 - L2-Regularisation = Lasso (High value)
 - L1-Regularisation = Ridge (Low value)
 - L1 + L2 - regularisation = ElasticNet
+
+### Measurement to find data accuracy in Data Science
+- MAE  Mean Absolute Error
+- MAPE= Mean Absolute Percent Error
+- MSE = Mean Square Error
+- RMSE = Root Mean Square Error
+- AIC = Akike Information Criterion
+- BIC = Basian Information Criterion
