@@ -113,3 +113,5 @@ Error-II = Actual Alternate Hypothesis has to be accepted but Mistakenly Alterna
 - Formula = summation of all ((Actual Value - Expected value) ^2 / (Expected Value))
 - Degree of Freedom = (column -1) * (Row -1)
 - If the calculated value is less than p-value(0.05), reject Null Hypothesis i.e, accept Alternate Hypothesis
+
+
