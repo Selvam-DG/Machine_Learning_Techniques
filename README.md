@@ -71,7 +71,7 @@
   - LSTM ( Long Short Term Memory)
 - when data containing time and date and are independent variables affecting the output variable, then the Time Forecasting Algorithm is used
 
-
+Model: 
 - Actual fitting => if train data gives 90% then test data(predict) gives 90% result
 - Underfitting=> 50% train data(Building data) and 50% test data(predict data) = High Bias (Prefer Algorithm  XG Boost)
 - Overfitting => 90% train data and 50% test data = High Variance (Prefer Algorithm - Random Forest) 
