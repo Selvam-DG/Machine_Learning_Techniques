@@ -5,7 +5,7 @@
 ## Conditional Probability
 ## Total Probability Theorem
 ## Bayes Theorem
-##Statistics Distributions
+## Statistics Distributions
 ## Discrete Distributions:
  - The sum of all individual probabilities must be equal to one
  - Bernoulis distribution, Binomial distribution, uniform distribution
@@ -40,6 +40,7 @@
 ### Exponential Distribution
 
 ### Chi-square Distribution
+- X1, X2,....Xn are normally distributed random variables 
 ### t-Distribution
 
 ## Parametric Test:
