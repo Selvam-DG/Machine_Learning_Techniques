@@ -70,7 +70,7 @@ Error-II = Actual Alternate Hypothesis has to be accepted but Mistakenly Alterna
 
 
 
-# ANOVA (One-way and Two-way ANOVA)
+### ANOVA (One-way and Two-way ANOVA)
 - F- stats is used to find the relation between two categorical variables
 - F-stat = (SSB / DoFB) / (SSW/DoFW)
 - SSB = Sum of Squares Between
