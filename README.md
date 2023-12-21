@@ -1,6 +1,6 @@
 # Machine Learning and Algorithms
 ### Supervised Machine Learning
-- The Output / dependent variable is known from the data. Design the model with the dependent and independent variables.
+- The Output / dependent variable is available in the data. Design the model with the dependent and independent variables. With the help of model, we can predict the unknown output variable with the new dependent variables.
 - Regression
 - Classification
 ### Unsupervised Machine Learning
