@@ -1,8 +1,10 @@
 # Machine Learning and Algorithms
 ### Supervised Machine Learning
+- The Output / dependent variable is known from the data. Design the model with the dependent and independent variables.
 - Regression
 - Classification
 ### Unsupervised Machine Learning
+- The output variable is not included in the data. Data contain only the independent variables and design a model with that data. we can divide and group the data. 
 - Clustering / Segmentation / Grouping
 - Recommendation Engine/ Market Basket Analysis
 ### Re-inforced Machine Learning
