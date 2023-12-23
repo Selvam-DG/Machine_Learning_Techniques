@@ -5,9 +5,24 @@
 1. Data should be linear
 2. Data should be normally distributed
 3. The should not be any Heteroscadicity (data should not contain outliers)
+   - Outliers are highly significant in Linear regression algorithm
 4. There should not be any auto-correlation
-5. Data should not contain any multicollinearity (i.e no two  independent variables should be strong correlation)
+   - The predicted dependent variable is same of two independent factors  
+   - This is checked by the Durbin-Watson Test (Range is 0 to 4)
+   - If Durbin Watson Test = 2, No Auto-correlation
+   - if 0 < Durbin Watson Test <2 , postive correlation
+   - if 2 > Durbin Watson Test > 4, then data contain a negative correlation
+   - check p_value, if the Durbin-Watson Test lies between 1.5 to 2.5. If the p_value is less than 0.05, then consider the variable
+   - if the Durbin Watson Test < 1.5 or Durbin Watson Test > 2.5, reject the Linear Regression model, do the data analysis with time series forecasting
+5. Data should not contain any multicollinearity (i.e no two  independent variables should not be  strongly correlated)
+   - Check multicollinearity with the help of Heatmap and check the correlation
+   - Another method to check multicollinearity
+     - if the Variance Inflation Factor is more than 5, then the data contain multicollinearity
+     - drop the variable and build the model
 6. Select the right dependent variable which is the so-called Endogeneity
+7. check R_square, adjusted R_square( Threshold is 0.7)
+8. Check p_value of all independent variables (should be less than 0.05)
+
 
 
 - Three Phases 
