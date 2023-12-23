@@ -1,6 +1,14 @@
 # Supervised Machine Learning
 1. Regression
 2. Classification
+## Assumptions for Linear Regression Model
+1. Data should be linear
+2. Data should be normally distributed
+3. The should not be any Heteroscadicity (data should not contain outliers)
+4. There should not be any auto-correlation
+5. Data should not contain any multicollinearity (i.e no two  independent variables should be strong correlation)
+6. Select the right dependent variable which is the so-called Endogeneity
+
 
 - Three Phases 
   - Geometrical Intuition
