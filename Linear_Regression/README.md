@@ -45,6 +45,7 @@
 ### Regularization Approach
 - Balancing the dataset to the same scale is regularisation
 - Regularisation is used to remove overfitting or underfitting problem
+- used to avoid overfitting and underfitting problem
 - L2-Regularisation = Lasso (High value)
 - L1-Regularisation = Ridge (Low value)
 - L1 + L2 - regularisation = ElasticNet
