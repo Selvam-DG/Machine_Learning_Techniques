@@ -43,11 +43,11 @@
 - 4 types of Ensemble
   - Bagging
     - Bagging
-    - Random Forest
+    - Random Forest - To handle overfitting problem
   - Boosting
      - Ada Boost
      - Gradient Boosting
-     - XG Boosting (Extra Gradient Boost)
+     - XG Boosting (Extra Gradient Boost) - to handle the underfitting problem
      - Light GBM Boosting
      - Cat Boosting
   - Stacking
