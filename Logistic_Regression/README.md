@@ -13,6 +13,9 @@
 ## Performance metrics:
 - Accuracy = # correctly classified points / Total # points in the dataset
 - confusion matrix = TrueNegative(TN), FalseNegative(FN),FalsePositive(FP), TruePositive(TP)
+- 0	1
+0	TN	FP
+1	FN	TP
 - TPR(True Positive Rate) = TP /(FN+TP)
 - TNR(True Negative Rate) = TN / (TN+ FP)
 - FPR
@@ -24,4 +27,6 @@
 -  F1-stats = 2 * ((Precision*Recall)/ (Precision + Recall))
 -  ROC =
 -  AUC =
+-  
+
 -  
