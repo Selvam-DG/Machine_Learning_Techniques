@@ -20,8 +20,11 @@
      - if the Variance Inflation Factor is more than 5, then the data contain multicollinearity
      - drop the variable and build the model
 6. Select the right dependent variable which is the so-called Endogeneity
-7. check R_square, adjusted R_square( Threshold is 0.7)
-8. Check p_value of all independent variables (should be less than 0.05)
+
+**Result prediction**
+8. R-square is the coefficient of determination.
+9. check R_square, adjusted R_square( Threshold is 0.7) - check the adjusted R square values which consider only significant variables whereas the R square considers both significant and non-significant variables.
+10. Check the p_value of all independent variables (should be less than 0.05)
 
 
 
@@ -35,7 +38,12 @@
 - If the dependent variable is a continuous variable of the Real number with an n-dimension
 - If the dependent variable is (0,1), then it is a classification  Problem (eg: yes/no, True/ False, Buy/Not Buy......)
 - If dependent variable is in range of(0,9), then it multi-class classification problem (eg. Rating the product, 
-- if the dependent variable belongs to the Real number with n dimension, then it is a regression 
+- if the dependent variable belongs to the Real number with n dimension, then it is a regression
+
+
+
+
+
 
 ### Error / Loss / Cost
 - Square Loss Function = difference of Predicted value from  Actual value
