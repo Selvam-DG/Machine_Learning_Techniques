@@ -37,6 +37,7 @@
 ![download](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/52c442d6-92c0-4242-8620-197cae188c5e)
 
 -  AUC = Area Under Curve
--  
+-  K-Fold Method (Cross Validation Approach)
+  - It is an algorithm to  get the best model of logistic regression. It depends on CV value. If cv value increases, the model result increases
 
 -  
