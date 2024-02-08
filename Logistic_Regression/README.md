@@ -27,8 +27,16 @@
 - Error = (FP + FN) / (TN + FN + FP + TP) 
 - Accuracy = (TP + TN) / (TN + FN + FP + TP) 
 -  F1-stats = 2 * ((Precision*Recall)/ (Precision + Recall))
--  ROC =
--  AUC =
+-  ROC = Receiver Operating characteristics
+    - The plot of TRP Vs FPR and the constant line is called Area under the curve
+    - The line above AUC is called Receiver Operating Characteristics
+    - If predict values are Fewer false values and more True values, then the model is good
+    - CASE1: If ROC curve go above the AUC( threshold line ), then model is good
+    - CASE 2: If ROC curve on the AUC (threshold line ), then the model is appropriate -> imbalance dataset
+    - CASE 3: If ROC curve is under the AUC line, then the model is not good
+![download](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/52c442d6-92c0-4242-8620-197cae188c5e)
+
+-  AUC = Area Under Curve
 -  
 
 -  
