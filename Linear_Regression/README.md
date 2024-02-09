@@ -4,7 +4,7 @@
 ## Assumptions for Linear Regression Model
 1. Data should be linear
 2. Data should be normally distributed
-3. The should not be any Heteroscadicity (data should not contain outliers)
+3. There should not be any Heteroscadicity (data should not contain outliers)
    - Outliers are highly significant in Linear regression algorithm
 4. There should not be any auto-correlation
    - The predicted dependent variable is same of two independent factors  
