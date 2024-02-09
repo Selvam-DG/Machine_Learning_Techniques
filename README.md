@@ -1,6 +1,6 @@
 # Machine Learning and Algorithms
 ### Supervised Machine Learning
-- The Output / dependent variable is available in the data. Design the model with the dependent and independent variables. With the help of model, we can predict the unknown output variable with the new dependent variables.
+- The Output / dependent variable is available in the data. Design the model with the dependent and independent variables. With the help of a model, we can predict the unknown output variable with the independent variables.
 - Regression
 - Classification
 ### Unsupervised Machine Learning
@@ -17,7 +17,7 @@
 
 #### Regression
 -  Dependent and Independent variable
-- Dependent variables is a continuous changeable variable, then the model comes under Regression
+- Dependent variable is a continuous changeable variable, then the model comes under Regression
 - Algorithms
   - Linear Regression
   - Decision Tree Regressor
@@ -61,7 +61,7 @@
   - Hierarchical Cluster
   - DBSCAN (Density-Based Special Cluster of Application Noise)
 #### Association Rule Mining / Market Basket Analysis
-- Coupons offered in shop or production suggestions while shopping in online are the example of Association Rule Mining
+- Coupons offered in shop or production suggestions while shopping in online are example of Association Rule Mining
 - Algorithm:
   - Apriore
 
