@@ -14,7 +14,6 @@
    - WMinkowski Distance = sum(|w * (x- y)|^p)^(1/p)
    - SEuclidean Distance = sqrt(sum((x- y)^2 / V))
    - Mahalanobis Distance = sqrt((x- y)' V^-1 (x- y))
-
  - Sort Distance
  - Select K point with Minimum distance
  - Classify in majority vote
@@ -47,7 +46,12 @@
 
 
 
-
+### Steps
+ ➢ Importing Library and Load Data
+ ➢ Normalize Data - scaling
+ ➢ Split data – Train Test
+ ➢ Apply KNN on 1 Test  Sample
+ ➢ Accuracy
 
 
 
