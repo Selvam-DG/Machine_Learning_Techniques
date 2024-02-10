@@ -15,6 +15,7 @@
 - Supervised ML methods have Independent and Dependent Variables. Split the data into train and test and then predict the values with test data with actual data
 - Unsupervised ML methods have only an independent variable (NO target variable) and no data splitting
 
+## Supervised Machine Learning
 #### Regression
 -  Dependent and Independent variable
 - Dependent variable is a continuous changeable variable, then the model comes under Regression
@@ -52,7 +53,7 @@
      - Cat Boosting
   - Stacking
   - Cascading
-
+### Unsupervised Machine Learning
 #### Clustering / Segmentation / Grouping
 - Cluster or Group the data into similar classes and targeting the most efficient cluster of data is simply a clustering technique
 - Algorithms:
@@ -75,5 +76,6 @@
 
 Model: 
 - Actual fitting => if train data gives 90% then test data(predict) gives 90% result
-- Underfitting=> 50% train data(Building data) and 50% test data(predict data) = High Bias (Prefer Algorithm  XG Boost)
-- Overfitting => 90% train data and 50% test data = High Variance (Prefer Algorithm - Random Forest) 
+- Underfitting=> 50% train data(Model Building data) and 50% test data(predict data) = High Bias (Prefer Algorithm  XG Boost)
+- Overfitting => 90% accuracy of train data and 50% accuracy of test data = High Variance (Prefer Algorithm - Random Forest)
+  - If model output gives a difference of more than 15% accuracy between train and test predicted values, then the dataset is high variance
