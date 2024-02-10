@@ -16,7 +16,7 @@
    - if the Durbin Watson Test < 1.5 or Durbin Watson Test > 2.5, reject the Linear Regression model, do the data analysis with time series forecasting
 5. Data should not contain any multicollinearity (i.e no two  independent variables should not be  strongly correlated)
    - Check multicollinearity with the help of Heatmap and check the correlation
-   - Another method to check multicollinearity
+   - Another method to check multicollinearity is Variance Inflation Factor (VIF)
      - if the Variance Inflation Factor is more than 5, then the data contain multicollinearity
      - drop the variable and build the model
 6. Select the right dependent variable which is the so-called Endogeneity
