@@ -80,18 +80,18 @@
 
 ### Step_5 : Imbalance dataset
 - This is applicable for classification problem because the dataset is level data (ie, dependent variable is yes or no type)
-- Assume yes variable is majority dataset and no varibale is minority dataset, then
+- Assume yes variable is the majority in dataset and no variable is the minority in dataset, then
 - If the majority dataset is greater than or equal to twice the minority dataset, then it is an imbalance dataset
-- Suppose n1 and n2 are two datasets with majority dataset of n1 and minority dataset of n2 (n1 >= n2)
+- Suppose n1 and n2 are two datasets with majority dataset of n1 and minority dataset of n2 (n1 >= 2*n2)
 - How to make the dataset to balance??
 - Approach 1:
-   - Undersampling method (Target is Majority dataset)
-   - so reduced the majority dataset to minimum dataset.
-   - but the problem with undersampling is that reducing the majority class to minimum dataset by removing the data. So it is not best method in digital world. Deleting/ reducing data is avoidable
+   - Undersampling method (Target is the Majority dataset)
+   - so reduced the majority dataset to a minimum dataset.
+   - but the problem with undersampling is reducing the majority class to the minimum dataset by removing the data. So it is not best method in digital world. Deleting/ reducing data is avoidable
    - So another approach is there to handle this imbalance dataset
 - Approach 2:
      - Oversampling method (Target is Minority dataset)
-     - It means the minority dataset is increased to majority dataset. that means n2 number increasing to n1 numbers
+     - It means the minority dataset is increased to the majority dataset. that means n2 number increasing to n1 numbers
 
 - Approach 3:
      - Artificial/ synthetic Approach (SMOTE)
