@@ -47,11 +47,11 @@
 
 
 ### Steps
- ➢ Importing Library and Load Data
- ➢ Normalize Data - scaling
- ➢ Split data – Train Test
- ➢ Apply KNN on 1 Test  Sample
- ➢ Accuracy
+- Importing Library and Load Data
+- Normalize Data - scaling
+- Split data – Train Test
+- Apply KNN on 1 Test  Sample
+- Accuracy
 
 
 
