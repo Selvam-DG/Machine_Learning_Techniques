@@ -30,6 +30,7 @@
 - Decision Tree( Base Model) + Bagging ( Row sampling with replacement) + Column Samplig(i.e. feature sampling )
 - OOB (Out Of Bag) dataset is the dataset that is not used in any of the models to create the sample models. This OOB data is used for cross-validation of the resulting model.
 - **Random Forest = Decision Tree(Base Model) + Row sampling + Column sampling + Aggregation techniques + OOB**
+- Feature scaling not required in this algorithm
 #### Extremely Randomized Tree
 - **Exteemly Randomized tree = Decision Tree(Base Model) + Row sampling + Column sampling + Aggregation techniques + Randomization in selection(tau)** where tau is threshold
 
