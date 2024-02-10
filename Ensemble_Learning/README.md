@@ -31,6 +31,7 @@
 - OOB (Out Of Bag) dataset is the dataset that is not used in any of the models to create the sample models. This OOB data is used for cross-validation of the resulting model.
 - **Random Forest = Decision Tree(Base Model) + Row sampling + Column sampling + Aggregation techniques + OOB**
 - Feature scaling not required in this algorithm
+- cross-validation approach to handle overfitting problem in Random Forest
 #### Extremely Randomized Tree
 - **Exteemly Randomized tree = Decision Tree(Base Model) + Row sampling + Column sampling + Aggregation techniques + Randomization in selection(tau)** where tau is threshold
 
