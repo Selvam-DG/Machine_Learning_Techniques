@@ -35,6 +35,33 @@
 #### Extremely Randomized Tree
 - **Exteemly Randomized tree = Decision Tree(Base Model) + Row sampling + Column sampling + Aggregation techniques + Randomization in selection(tau)** where tau is threshold
 
+## Boosting
+- It supported both classification and regression
+
+- In Bagging, If the dataset has high variance and low bias ( in addition to Random Forest i.e column featuring, bootstrapping, and aggregating)
+- In contrast, Boosting handles High bias and low variance (bais means train and test model accuracy should be more than 70% and variance means the difference between the train and test model accuracy is less than 15% at most)
+- Bagging = Parallel
+  - That is sample data from the population data, create multiple models parallelly then finally aggregate to the final model
+- Booting = Sequential
+  - Create Multiple decision trees sequentially end to leaf node. If the end node gives a negative result, again build a DT
+  - weak classification method
+    - if the weight is lower, we can train the model with another decision tree
+- Boosting method builds a model in sequential order
+  - It gives equal weight to all sample datasets
+  - find the error weight
+  - update the error weight by using the formula (Error = (1/2)*ln((1-TotalError)/total error)
+  - error weight = actual weight * exp(new error)
+
+- **Pseudo-residual / False Proxy**
+- negative derivative of error = 2* residual i.e dL/dZ = 2*(actual value - predicted value )
+
+
+
+
+
+
+
+
 ### Stacking
 - An ensemble learning, Meta-Classifier of stacking
 - training dataset -> classified model -> visibility result model -> Meta-Classifier = best accuracy model from the meta classifier
