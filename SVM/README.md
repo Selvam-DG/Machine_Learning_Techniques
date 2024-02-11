@@ -35,22 +35,20 @@
 
 
 
-
-
-
 ### Kernel
 - In SVM, it is easy to have a linear hyper-plane between these two classes. But, another burning  question which arises is, should we need to add this feature manually to have a hyper-plane.
-No, SVM has a technique called the kernel trick. These are functions which takes low dimensional  input space and transform it to a higher dimensional space i.e. it converts not separable problem  to separable problem, these functions are called kernels.
+No, SVM has a technique called the kernel trick. These are functions which takes low dimensional  input space and transform it to a higher dimensional space i.e. it convert not separable problem  to a separable problem, these functions are called kernels.
 It is mostly useful in non-linear  separation problem. Simply put, it does some extremely complex data transformations, then find
 out the process to separate the data based on the labels or outputs you’ve defined.
 ![image](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/d83a16a9-a232-4d98-942b-f94ac0aa8c81)
 
-### Pros and Cons:
+## Pros and Cons:
+#### pros
 - It works really well with clear margin of separation
 - It is effective in high-dimensional spaces.
 - It is effective in cases where a number of dimensions is greater than the number of samples.
 - It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
-Cons:
+#### Cons:
 - It doesn’t perform well, when we have a large data set because the required training time is higher
 - It also doesn’t perform very well, when the data set has more noise i.e. target classes are  overlapping
 
