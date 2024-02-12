@@ -60,7 +60,11 @@
 -   alpha=1, k=2 where alpha is Laplace smoothing and K is the number of distinct values that an unknown variable can take
 -   function = ( # datapoint + alpha) / (total number of data points + (alpha*K))
 -   Hyperparameters used in Naive Bayes theorem are alpha and k
--   
+-   If alpha increases, the likelihood probability increases and becomes uniform after a certain alpha value
+-   In NaiveBayes, overfitting problems (i.e, high variance,) and also high bias problems, can be solved by Laplace smoothing (alpha value)
+-   If alpha is zero, the NB method gives high variance, and if alpha is a large value, the NB method gives high bias result
+-   To choose the right alpha value, use the **cross-validation (cv-fold) or K-fold**
+-   In Naive Bayes theorem, alpha is a hyperparameter to tuning the method, similarly in the KNN method, K is the hyperparameter to tune the KNN method
 
   
 - 
