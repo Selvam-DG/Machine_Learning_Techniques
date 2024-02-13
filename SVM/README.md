@@ -15,7 +15,7 @@
 
 
 ## how does it works??
-- Identify the right hyper-plane (Scenario-1): Here, we have three hyper-planes (A, B and C). Now,  identify the right hyper-plane to classify star and circle.
+- Identify the right hyper-plane (Scenario-1): Here, we have three hyper-planes (A, B and C). Now,  identify the right hyper-plane to classify stars and circles.
 - You need to remember a thumb rule to identify the right hyper-plane: “Select the hyper-plane  which segregates the two classes better”. In this scenario, hyper-plane “B” has excellently  performed this job.
 ![image](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/b93d0b10-fc4c-4dec-be13-836c0052ea72)
 
@@ -42,6 +42,13 @@ It is mostly useful in non-linear  separation problem. Simply put, it does some 
 out the process to separate the data based on the labels or outputs you’ve defined.
 ![image](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/d83a16a9-a232-4d98-942b-f94ac0aa8c81)
 
+# Kernel Types in SVM
+- Linear Kernel
+- Radial Basis Function kernel
+- Polynomial kernel
+- Sigmoid kernel
+
+  
 ## Pros and Cons:
 #### pros
 - It works really well with clear margin of separation
