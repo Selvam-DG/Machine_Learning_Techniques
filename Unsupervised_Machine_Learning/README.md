@@ -91,6 +91,66 @@
 
 
 
+# Association Rule Mining/ Market Basket Analytics
+- It is an unsupervised Machine Learning. That means, it is a data mining method
+- Support
+- Confidence
+- Lift
+  - It is a threshold value.
+  - The minimum value of lift is 1. So, if the lift value >=1, then the model is good
+    
+![image](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/a6b7aa76-95bd-4b79-af1e-151f794ada0b)
+
+- Association rule mining is a method for discovering interesting relations between variables in large dataset
+- Association rule mining take care of three parameter
+  - Support: Gives fraction of transactions that contain the items X, Y
+  - Confidence: GIves how often the items X and y occur together, given the number of items X occurs
+  - Lift: It indicates the strength of a rule over the random co-occurrence of X and Y
+
+
+![Screenshot 2024-02-13 211559](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/2fc63be0-3515-4eb8-b28f-f87d03178964)
+
+
+# Recommendation Engines
+- It is also a Recommender system
+- It is a tool that lets algorithm developers predict what a user may or may not like among a list of given items.
+- It helps users discover products or content that we may not come across otherwise
+- This makes the recommendation engine a great part of websites and services such as FB, YouTube, Amazon, Netflix etc.,
+- Types of Recommendation Engines:
+  - User-based filtering
+    - Build a model from the user's past behavior and similar decisions made by other users also
+  - Content-based filtering
+    - Utilize a series of discrete characteristics of an item in order to recommend additional items to users with similar properties
+  - Hybrid recommender system which combines both of the above two types
+
+
+- Pros and Cons of  User-based filtering
+  - Data is not a constraint
+  - Easy to comprehend
+  - Differentiated output
+  - sparsity
+  - Cold start
+  - popularity bias
+- Pros and Cons of  Content-based filtering
+  - Only user data
+  - No differentiation
+  - No first-rater problem
+  - Find important features
+  - over-specialization
+  - No good judgments
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
