@@ -88,6 +88,8 @@ Error-II = Actual Alternate Hypothesis has to be accepted but Mistakenly Alterna
 - support
 - Confidence
 - Lift
+ ![image](https://github.com/Selvam-DG/Machine_Learning_Techniques/assets/98681717/7280f467-d42b-4b1a-b2a0-003d67450e52)
+
 
 ### Karl Pearson's Coefficient of Correlation
 - Finding the relation between two variables i.e., how much the variables are related to each other.
