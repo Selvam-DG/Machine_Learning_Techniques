@@ -63,14 +63,15 @@
 - How to measure density??
   - Minpoints, Epsilon, Core-points, board-points, boundary-point, More point, etc.,
 #### Measuring Density
-- Minpoints and Epsilon values a
+- Minpoints and Epsilon values
 - Hyperparameter tuning of DBSCAN are Minpoints and Epsilon
 - Desnity at point P = number of points within a hyper shape of radius epsilon around P. Here radius value is the Epsilon(€) value and the density (number of points) inside the circle/sphere is called the Minpoint
 - Dense Region: It is a hypersphere/circle of radius €(epsilon =1) that contains at least 4 Minpoints
   - Epsilon =1 (radius of the circle is one) and Minpooint is atleast 4, then these are the hyperparameters of DBSCAN
 - Sparse region/Noise:
-- If the radius (€) that epsilon is greater than one and Minpoits is less than 4, then it is a Sparse region or outlier
-- Core Point: If point p has an epsilon value of one and contains at least 4 Min points around the point within the epsilon value, then that point is called a core point
+  - If the radius (€) that epsilon is greater than one and Minpoits is less than 4, then it is a Sparse region or outlier
+- Core Point:
+  - If point p has an epsilon value of one and contains at least 4 Min points around the point within the epsilon value, then that point is called a core point
   - Core points are the same as dense regions 
 - Boarder/Boundary Point:
   - IF Point P is not a core point ( which means epsilon value of 1 and Minpoint is less than 4) and Point Q is a core point( epsilon=1, Minpoint >=4 ), P is neighbor of Q if the distance between P and Q is less than or equal to epsilon value(=<1), the P is considered as Border/Boundary point
