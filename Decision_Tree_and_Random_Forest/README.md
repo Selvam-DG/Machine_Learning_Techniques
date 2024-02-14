@@ -55,10 +55,14 @@
 4. Rule can help to create a business strategy
 
 - Outlier and feature scaling is not required in Decision tree
-- regression - we dont need to check the imbalance dataset
+- regression - we don't need to check the imbalance dataset
 
 ### Preventing Overfitting:
 - By setting constraints on
 
+# Random Forest
+- Random Forest algorithm is a multiple decision tree algorithm
 
+
+### OOB Error rate
 
