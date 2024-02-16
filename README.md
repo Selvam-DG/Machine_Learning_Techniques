@@ -96,3 +96,9 @@ Model:
 - Underfitting=> 50% train data(Model Building data) and 50% test data(predict data) = High Bias (Prefer Algorithm  XG Boost)
 - Overfitting => 90% accuracy of train data and 50% accuracy of test data = High Variance (Prefer Algorithm - Random Forest)
   - If model output gives a difference of more than 15% accuracy between train and test predicted values, then the dataset is high variance
+- Bias:
+  - Error induced by simplifying assumptions of the model
+- Variance:
+  - Error induced by differing  training data i.e. how sensitive is the model to “noise”
+- Both errors oppose each other. that means, when reducing bias, variance increase
+- So, the best model should contain low bias and low variance, that  point is called "sweet spot"
