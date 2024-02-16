@@ -15,6 +15,23 @@
 - Supervised ML methods have Independent and Dependent Variables. Split the data into train and test and then predict the values with test data with actual data
 - Unsupervised ML methods have only an independent variable (NO target variable) and no data splitting
 
+
+# Machine Learning Pipeline:
+1. Problem Definition
+2. Data collection
+3. Data Preparation (preprocessing the data)
+4. Data Segregation (split the data into train, evaluate, and test)
+5. Model building
+6. Model Evaluation
+7. Model Deployment
+8. Performance Monitoring
+
+
+
+
+
+
+
 ## Supervised Machine Learning
 #### Regression
 -  Dependent and Independent variable
