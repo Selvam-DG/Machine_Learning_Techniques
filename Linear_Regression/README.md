@@ -1,6 +1,19 @@
 # Supervised Machine Learning
 1. Regression
 2. Classification
+
+# Regression :
+- Dataset contains features (independent variables ) and the label outputs (dependent variables)
+- The problem has to be simple:
+  - The dataset is small
+  - Linear model is enough i.e. Trend Analysis
+  - Linear models are the basis for complex models i.e. Deep Networks
+- Regression Model Fit:
+  - Linear model
+  - Polynomial model
+  - Gaussian model
+
+    
 ## Assumptions for Linear Regression Model
 1. Data should be linear
 2. Data should be normally distributed
@@ -23,6 +36,7 @@
 
 **Result prediction**
 8. R-square is the coefficient of determination.
+   - It is a measure of the percentage of variability of the dependent variable (𝐲) in the data explained by the model!
 9. check R_square, adjusted R_square( Threshold is 0.7) - check the adjusted R square values which consider only significant variables whereas the R square considers both significant and non-significant variables.
 10. Check the p_value of all independent variables (should be less than 0.05)
 
@@ -54,8 +68,8 @@
 - Balancing the dataset to the same scale is regularisation
 - Regularisation is used to remove overfitting or underfitting problem
 - used to avoid overfitting(high variance) and underfitting(high bias) problems
-- L2-Regularisation = Lasso (High value) _ Overfit problem
-- L1-Regularisation = Ridge (Low value) - underfit problem
+- L2-Regularisation = Lasso (High value) - Overfit problem (i.e the training accuracy is more and test accuracy is less )
+- L1-Regularisation = Ridge (Low value) - underfit problem (i.e, training accuracy and test accuracy both are less than 50% )
 - L1 + L2 - regularisation = ElasticNet
 
 ### Measurement to find data accuracy in Data Science
@@ -65,3 +79,16 @@
 - RMSE = Root Mean Square Error
 - AIC = Akike Information Criterion
 - BIC = Basian Information Criterion
+
+
+
+#### Mean Absolute Error (MAE):
+- Average difference between the original and predicted values
+- Measure how far predictions were from the actual output 
+- Does not give an idea about the direction of error
+
+#### Mean Squared Error (MSE):
+ • Similar to MAE
+ • It takes the average of the square of the difference between the original and predicted value
+ • Larger errors become more pronounced so that the model can focus on larger errors.
+
