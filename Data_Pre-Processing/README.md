@@ -103,3 +103,10 @@
 - Pandas
 - Matplotlib.pyplot
 - Seaborn
+
+### Data Split: 
+- Before we train a model we have to separate our data set:
+  - Wehavetoseparatethe target variable
+  - **Training Set**: This set is used to fit our model
+  - **Validation Set**: Validation set is used to test our fit of the model and tune its hyperparameters
+  - **TestSet**: Test set is used to evaluate the performance of the final version of our model
