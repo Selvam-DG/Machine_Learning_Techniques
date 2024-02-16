@@ -1,7 +1,8 @@
 # Logistic Regression
+#### Logistic regression is the application of linear regression to classification!
 - result variable /Dependent variable is categorical or dichotomous 
 - Dependent variable is a binary class(yes/No, True/False, 0/1) then use logistic regression
-- sigmoid function
+- sigmoid function = 1 / (1+exp(-x))
 - with the sigmoid function, the range becomes (0, infinity)
 - Apply logarithm, then the range changes to (-infinity to + infinity)
 - ln(p/(1-p)) = Y = beta0 + beta1*X1 + beta2*X2 +...... + Error
@@ -41,3 +42,6 @@
   - It is an algorithm to  get the best model of logistic regression. It depends on CV value. If cv value increases, the model result increases
 
 -  
+
+- Thumb-Rule:
+  - The larger the distance of the input 𝐱 to the decision boundary, the more certain it belongs to
