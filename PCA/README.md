@@ -14,3 +14,26 @@
   - Reinforcement Learning
 
 
+- Summary of Algorithm
+  1. Find principal directions 𝑤1,…𝑤𝑝 and eigenvalues 𝜆1,…,𝜆𝑝
+  2. Project data points into new coordinate frame using 𝑻 =𝑿𝑾
+  3. Keep the 𝑞 most important dimensions as determined by 𝜆1,…,𝜆𝑝(which are sorted by variance)
+ 
+- Summary of Principal Component Analysis
+  - Rotate the coordinate system such that all axes are sorted from most variance to least variance
+  - Required axes 𝑾 determined using either
+    - Eigenvectors and –values of covariance matrix 𝑪 = 𝑾𝑳𝑾𝑇
+    - Singular Value Decomposition (SVD) of data points 𝑿 = 𝑼𝑺𝑾𝑇
+  - Subsequently, drop axes with the least variance
+  - Variance-based feature selection has limitations
+ 
+
+
+
+
+
+
+
+
+
+source: FAU university
