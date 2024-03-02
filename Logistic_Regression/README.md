@@ -23,6 +23,7 @@
 - TNR(True Negative Rate) = TN/N = TN / (TN+ FP)
 - FPR = FP/ N = FP/ (TN + FP )
 - FNR = FN/ P = FN / (FN+ TP )
+- Precision measures the accuracy of the model’s positive predictions, while recall measures the proportion of actual positive cases that the model correctly identifies
 - Recall/sensitivity = TPR = is nothing but the from all of the actual positive points, how much percentage of them are predicted by the model is correctly
 - Precision = TP/(TP+FP) = from the positive values predicted by the model, what percentage of them are positive actually in the original dataset.
 - Error = (FP + FN) / (TN + FN + FP + TP) 
