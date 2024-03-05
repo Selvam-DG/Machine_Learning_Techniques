@@ -6,12 +6,24 @@
 - Simply
   - Points in a cluster are very close to each other
   - Points in different clusters are far away from each other
+- Clustering Algorithms
+  - Partitioned-based Clustering
+    - Relatively efficient
+      - K-Means, K-Median, Fuzzy c_Means
+  - Hierarchical Clustering
+    - Produces trees of clusters
+      - Agglomeratve, Divisive
+  - Density-based Clustering
+    - Produced arbitrarily shaped clusters
+      - DBSCAN algorithm
 - How to measure cluster algorithm performance??
   - K-means cluster 
   - C- means cluster
   - Hierarchical cluster
   - DBSCAN cluster
 ### K-means Cluster ( Lloyd's Algorithm)
+- Objects within a cluster are very similar and objects across different clusters are very different or dissimilar.
+- k-Means tries to minimizethe “intra-cluster” distances and maximize the “inter-cluster” distances.
 - Algorithm
   - Step 1: Random Intitialisation
     - randomly pick k points from the 'D' dataset and call them C1, C2,....Ck
